@@ -11,6 +11,8 @@ Note that the files that AWS has is not necessarily a comprehensive sample of 99
 - Index files are provided in [index_files](./index_files/)
 - Code for producing the files is in [code](./code/)
 
+As I am a young researcher hoping for a career in academia. If you publish any work using this data please cite me appropriately. The data is also on [Harvard Dataverse](https://doi.org/10.7910/DVN/BYJAPN) as is citation information.
+
 ## Credit
 
 Building these index files relied heavily on two major resources:
