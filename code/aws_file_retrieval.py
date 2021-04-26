@@ -1,3 +1,10 @@
+'''
+This script borrows nearly exactly from code provided by David Bruce Borenstein at Applied Nonprofit Research.
+Information about the script as well as the original code can be found at: https://appliednonprofitresearch.com/posts/2020/06/skip-the-irs-990-efile-indices/
+I do not have David Bruce Borenstein's expressed permission to post this script publicly, but assume this is in line with the explicit intentions of the blog post.
+If citing this script please cite him.
+'''
+
 import time
 import datetime
 from collections import deque
