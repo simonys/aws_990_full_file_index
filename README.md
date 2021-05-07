@@ -23,7 +23,5 @@ Building these index files relied heavily on two major resources:
 
 ## Future Plans:
 
-- The Code is not up-to-date for the 2009-2014 files which require manual XML reading. This will be updated soon.
-- Clean up code. I wanted to make this accessible as quickly as possible and know there are a lot of improvements to make.
 - Create/Alter code to allow for regular updating of index files 
 
