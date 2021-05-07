@@ -228,9 +228,12 @@ def fetch_yr_ind( oid_srch_lst ):
 yr_lst = list( range( BEGIN_YR, END_YR + 1 ) )
 for yr in yr_lst:
     
-    # Read up-to-date index file
-    cur_ind_file = pd.read_csv( CUR_IND_FILE_PREF + str( yr ) + CUR_IND_FILE_SUFF )
-    cur_ind_file['990_SRC'] = "AWS INDEX"
+    # Read up-to-date index file if one exists, at time of writing 2009 and 2010 dont exist
+    try:
+        cur_ind_file = pd.read_csv( CUR_IND_FILE_PREF + str( yr ) + CUR_IND_FILE_SUFF )
+        cur_ind_file['990_SRC'] = "AWS INDEX"
+    except:
+        cur_ind_file = pd.DataFrame( columns=[IND_FILE_OID_COL] )
     
     # Read new file list taken from aws_file_retrieval.py and make object ID column
     new_oid_file = pd.read_csv( NEW_OID_FILE_PREF + str( yr ) + NEW_OID_FILE_SUFF, usecols=[NEW_OID_FILE_COL] )
