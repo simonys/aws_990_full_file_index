@@ -21,5 +21,6 @@ Building these index files relied heavily on two major resources:
 
 ## Future Plans:
 
-- Create/Alter code to allow for regular updating of index files 
+- Add 2020 index files after first update in 2022 (Expected February 2022)
+- Improve code to for regular updating of index files 
 
