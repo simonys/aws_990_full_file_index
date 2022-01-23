@@ -1,7 +1,7 @@
 # AWS 990 Full File Index
 
 ***
-**The current index files uploaded are accurate as of August 28, 2021.**
+**The current index files uploaded are accurate as of January 23, 2021.**
 ***
 
 The index files provided by AWS for retrieving public IRS 990 tax forms account for only ~75-85% of files that AWS actually has on hand. This repository provides the same index with the complete listing of files available on AWS as well as the code that created the index files.
@@ -21,6 +21,5 @@ Building these index files relied heavily on two major resources:
 
 ## Future Plans:
 
-- Add 2020 index files after first update in 2022 (Expected February 2022)
 - Improve code to for regular updating of index files 
 
